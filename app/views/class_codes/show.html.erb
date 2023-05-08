@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @class_code %>
+
+<div>
+  <%= link_to "Edit this class code", edit_class_code_path(@class_code) %> |
+  <%= link_to "Back to class codes", class_codes_path %>
+
+  <%= button_to "Destroy this class code", @class_code, method: :delete %>
+</div>

@@ -1,0 +1,2 @@
+class ClassCode < ApplicationRecord
+end
